@@ -28,6 +28,15 @@
                     <li class="${dashboard}"><a href="dashboard"><i
                         class="fa fa-home"></i><span>首页面板</span></a></li>
                     <c:if test="${userSessionInfo.level.id>1}">
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-user"></i><span>系统管理</span></a>
+                         <ul class="sub-menu">
+                            <li class="${staff_list}"><a href="staff_list">用户列表</a></li>
+                            <li class="${staff_new}"><a href="staff_new">部门管理</a></li>
+                        </ul>
+                    </li>
+                    
                     <li>
                         <a href="#"><i class="fa fa-user"></i><span>用户管理</span></a>
                         <ul class="sub-menu">
