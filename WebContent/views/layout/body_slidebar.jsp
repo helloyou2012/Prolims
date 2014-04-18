@@ -34,6 +34,7 @@
                          <ul class="sub-menu">
                             <li class="${staff_list}"><a href="staff_list">用户列表</a></li>
                             <li class="${staff_new}"><a href="staff_new">部门管理</a></li>
+                            <li class="${staff_new}"><a href="staff_new">权限管理</a></li>
                         </ul>
                     </li>
                     
